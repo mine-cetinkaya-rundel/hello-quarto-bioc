@@ -46,7 +46,7 @@ So, I'll call this talk a success if some of you are already firing up Quarto ri
 But I hope you'll continue to listen with one ear and take in the beautiful illustrations by Allison Horst.
 And if you just want to enjoy the talk, feel free to go to this link.
 
-sit back, 
+sit back,
 
 and I'll advance the slides for you.
 :::
@@ -73,7 +73,7 @@ building on Pandoc on the technical side
 
 and on the human side -- over a decade of experience developing, maintaining, and tweaking these packages as well as community feedback R Markdown extension packages.
 
-Such a unification effort presents a fantastic  opportunity to identify and address gaps functionality and inefficiencies in user experience, and the process of building Quarto has been no different.
+Such a unification effort presents a fantastic opportunity to identify and address gaps functionality and inefficiencies in user experience, and the process of building Quarto has been no different.
 :::
 
 ## Quarto highlights
@@ -144,12 +144,15 @@ Some highlights of these improvements include
 --\> and perhaps most excitingly for those who are not coming from the R ecosystem, Quarto offers support for other languages like Python, Julia, Observable, and more via the Jupyter engine for executable code chunks.
 And it's designed to be expandable to more engines and languages, even those that might not exist today.
 
-[pause] So by now I'm assuming many of you have already started playing with Quarto, or you're waiting for me to do that.
+\[pause\] So by now I'm assuming many of you have already started playing with Quarto, or you're waiting for me to do that.
 So, let's dive in and see what all the Quarto fuss is about!
 :::
 
-##  {#demo-share .centered data-menu-title="Demo: Share" background-video="videos/demo-1-share.mp4" background-size="contain" background-color="#FFFFFF"}
+##  {#demo-share .centered data-menu-title="Demo: Share" background-color="#FFFFFF"}
 
+```{=html}
+<script src="https://fast.wistia.com/embed/medias/a1rq6hfnoe.jsonp" async></script><script src="https://fast.wistia.com/assets/external/E-v1.js" async></script><div class="wistia_responsive_padding" style="padding:57.08% 0 0 0;position:relative;"><div class="wistia_responsive_wrapper" style="height:100%;left:0;position:absolute;top:0;width:100%;"><div class="wistia_embed wistia_async_a1rq6hfnoe videoFoam=true" style="height:100%;position:relative;width:100%"><div class="wistia_swatch" style="height:100%;left:0;opacity:0;overflow:hidden;position:absolute;top:0;transition:opacity 200ms;width:100%;"><img src="https://fast.wistia.com/embed/medias/a1rq6hfnoe/swatch" style="filter:blur(5px);height:100%;object-fit:contain;width:100%;" alt="" aria-hidden="true" onload="this.parentNode.style.opacity=1;" /></div></div></div></div>
+```
 ::: notes
 -   Open hello.Rmd with source editor -\> knit
 -   Change to visual editor -\> knit
@@ -158,7 +161,7 @@ So, let's dive in and see what all the Quarto fuss is about!
 -   Click on Render on save
 -   Change to `format: pdf` -\> render -\> then change back
 -   Add chunk option `echo: false` to the first chunk
--   Add `execute` > `echo: false` to the yaml
+-   Add `execute` \> `echo: false` to the yaml
 -   Add alt text to figure in second code chunk -\> save to render
 -   Change to `format: revealjs` -\> save to render
 -   Add H2 to break slides
@@ -168,7 +171,7 @@ So, let's dive in and see what all the Quarto fuss is about!
 -   Relaunch project
 -   Show new Build tab
 -   Render site, show `_site` folder
--   Add freeze to _quarto.yml
+-   Add freeze to \_quarto.yml
 -   From terminal: `quarto publish`
 :::
 
@@ -250,9 +253,7 @@ As an educator, two things are of utmost importance to me about the tools I use 
 Over the last year of using Quarto for pretty much everything, I've felt like I've finally found the tool that lets me go from one output type to the other with minimal, if any, futzing around with my source code beyond the yaml.
 For example, here are common things I produce
 
---\> a lesson in document form <br>
---\> the same content in presentation form <br>
---\> the same content on a page in a website,
+--\> a lesson in document form <br> --\> the same content in presentation form <br> --\> the same content on a page in a website,
 
 and you can see that all that needed to change going between these formats is a few lines in the yaml.
 Nothing in the content part of my document.
@@ -287,5 +288,5 @@ But for the sharing story to be complete, the tool also needs to support easily 
 
 I've been talking just about me and my work so far, but I, like many of you, don't operate in a silo disconnected from others.
 
-**[Mine continue on next slide]**
+**\[Mine continue on next slide\]**
 :::

@@ -20,7 +20,7 @@ So, let's take a pulse first.
 slido.com / #quarto
 
 ```{=html}
-<iframe src="https://app.sli.do/event/bJ5b5t7YkHHR38u1UfKRmm/embed/polls/75342d1f-6c11-4c91-bc7f-ca0c6dc197bd" width="300" height="400"></iframe>
+<iframe src="https://app.sli.do/event/bJ5b5t7YkHHR38u1UfKRmm/embed/polls/75342d1f-6c11-4c91-bc7f-ca0c6dc197bd" width="1000" height="700"></iframe>
 ```
 
 ## Quarto enables collaborating <br>across coding languages {.takeaway .center highlight-style="github"}
@@ -91,7 +91,11 @@ This is so important because doing science is already challenging and and we don
 transtion: Let me show you how to use Quarto with Jupyter with ipynb notebooks.
 :::
 
-##  {#demo-collaborate .center data-menu-title="Demo: Collaborate" background-video="videos/demo-2-collaborate.mp4" background-size="contain" background-color="#FFFFFF"}
+##  {#demo-collaborate .center data-menu-title="Demo: Collaborate" background-color="#FFFFFF"}
+
+```{=html}
+<script src="https://fast.wistia.com/embed/medias/dfyjy1v1aw.jsonp" async></script><script src="https://fast.wistia.com/assets/external/E-v1.js" async></script><div class="wistia_responsive_padding" style="padding:56.25% 0 0 0;position:relative;"><div class="wistia_responsive_wrapper" style="height:100%;left:0;position:absolute;top:0;width:100%;"><div class="wistia_embed wistia_async_dfyjy1v1aw videoFoam=true" style="height:100%;position:relative;width:100%"><div class="wistia_swatch" style="height:100%;left:0;opacity:0;overflow:hidden;position:absolute;top:0;transition:opacity 200ms;width:100%;"><img src="https://fast.wistia.com/embed/medias/dfyjy1v1aw/swatch" style="filter:blur(5px);height:100%;object-fit:contain;width:100%;" alt="" aria-hidden="true" onload="this.parentNode.style.opacity=1;" /></div></div></div></div>
+```
 
 ::: notes
 -   Orient to JupyterLab. This is a JupyterHub managed by our collaborators at 2i2c
