@@ -1,0 +1,4 @@
+- source: index.qmd
+  quarto-pub:
+    - id: c12e3504-4c78-47b8-936a-77f339bb5eb1
+      url: 'https://quartopub.org/sites/mine/hello-quarto-bioc'

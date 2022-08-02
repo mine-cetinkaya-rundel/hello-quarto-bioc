@@ -40,7 +40,7 @@ So, I'll call this talk a success if some of you are already firing up Quarto ri
 
 ##  {#link-to-slides .center data-menu-title="Link to slides" background-image="images/horst_quarto_penguins_thankyou.png" aria-label="Two penguins standing on an iceberg at dawn, viewed from behind, with their arms around each others' shoulders. A Quarto logo moon is near the horizon."}
 
-[bit.ly/hello-quarto-bioc](https://bit.ly/hello-quarto-bioc){.custom-url-middle-dark}
+[[mine-quarto-pub/hello-quarto-bioc](https://mine-quarto-pub/hello-quarto-bioc)]{.custom-url-top-dark}
 
 ::: notes
 But I hope you'll continue to listen with one ear and take in the beautiful illustrations by Allison Horst.

@@ -16,26 +16,25 @@ $code-block-font-size: 0.9em;
   font-family: 'Delius Unicase', cursive;
   color: #d2e3f3;
   font-size: 3em;
-  position: absolute; 
-  left: 20px; 
+  position: absolute;
+  left: 20px;
   top: 20px
 }
 
 .reveal .custom-subtitle {
-  font-family: 'Delius Unicase', cursive;
   color: #d2e3f3;
   font-size: 1.2em;
-  position: absolute; 
-  left: 20px; 
+  position: absolute;
+  left: 20px;
   top: 200px
 }
 
 .reveal .custom-author {
   color: #d2e3f3;
-  position: absolute; 
+  position: absolute;
   text-align: right;
   font-size: 1.1em;
-  right: 0px; 
+  right: 0px;
   bottom: 40px;
   line-height: 1.5em;
 }
@@ -44,25 +43,32 @@ $code-block-font-size: 0.9em;
   color: #9CE0F6;
   font-size: 1em;
   text-align: right;
-  position: absolute; 
-  right: 0px; 
+  position: absolute;
+  right: 0px;
   bottom: -10px;
 }
 
 .reveal .custom-url-middle-dark a {
   color: #0F1620;
-  font-size: 1.75em;
-  position: absolute; 
-  left: 20px; 
+  font-size: 2em;
+  position: absolute;
+  left: 20px;
   top: -150px;
 }
 
 .reveal .custom-url-top-white a {
   color: #FFFFFF;
   font-size: 1.1em;
-  position: absolute; 
-  left: 20px; 
+  position: absolute;
+  left: 20px;
   top: -475px
+}
+
+.reveal .custom-url-top-dark a {
+  color: #0F1620;
+  font-size: 2.25em;
+  position: absolute;
+  top: -450px
 }
 
 .reveal .custom-artwork {
@@ -70,8 +76,8 @@ $code-block-font-size: 0.9em;
   color: #d2e3f3;
   font-size: 0.8em;
   text-align: right;
-  position: absolute; 
-  right: 0px; 
+  position: absolute;
+  right: 0px;
   bottom: -90px;
 }
 
@@ -95,8 +101,8 @@ $code-block-font-size: 0.9em;
   font-family: 'Delius Unicase', cursive;
   color: #75AADB;
   font-size: 3em;
-  position: absolute; 
-  left: 20px; 
+  position: absolute;
+  left: 20px;
   top: -400px
 }
 
@@ -104,8 +110,8 @@ $code-block-font-size: 0.9em;
   font-family: 'Delius Unicase', cursive;
   color: #9CE0F6;
   font-size: 3em;
-  position: absolute; 
-  left: 20px; 
+  position: absolute;
+  left: 20px;
   top: -400px
 }
 
@@ -113,8 +119,8 @@ $code-block-font-size: 0.9em;
   font-family: 'Delius Unicase', cursive;
   color: #0F1620;
   font-size: 3em;
-  position: absolute; 
-  left: 20px; 
+  position: absolute;
+  left: 20px;
   top: -400px
 }
 
@@ -122,8 +128,8 @@ $code-block-font-size: 0.9em;
   font-family: 'Delius Unicase', cursive;
   color: #0F1620;
   font-size: 3em;
-  position: absolute; 
-  left: 5px; 
+  position: absolute;
+  left: 5px;
   top: 0px
 }
 
@@ -131,8 +137,8 @@ $code-block-font-size: 0.9em;
   font-family: 'Delius Unicase', cursive;
   color: #9CE0F6;
   font-size: 3em;
-  position: absolute; 
-  left: 5px; 
+  position: absolute;
+  left: 5px;
   top: 0px
 }
 
@@ -140,8 +146,8 @@ $code-block-font-size: 0.9em;
   font-family: 'Delius Unicase', cursive;
   color: #9CE0F6;
   font-size: 3em;
-  position: absolute; 
-  left: 5px; 
+  position: absolute;
+  left: 5px;
   top: 0px
 }
 
@@ -272,7 +278,7 @@ $code-block-font-size: 0.9em;
 }
 
 .shout { /*-- julie note: also not final (or accessible)! Just wanted something that isn't normal text - altering Header3 could also work here --*/
-  color: teal; 
+  color: teal;
   font-size: 1.5em;
   font-weight: bold;
 }
